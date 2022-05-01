@@ -1,0 +1,466 @@
+*{
+    margin: 0%;
+}
+body{
+    font-family: 'Libre Bodoni', serif;
+    background: url(art/background.jpg)  no-repeat;
+    align-items: center;
+}
+
+/* -------------------------------container------------------------------------ */
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* ---------------------------------header--------------------------------------- */
+.header{
+    background-color: rgba(240, 248, 255, 0.473);
+    width: 100%;
+    position: fixed;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo img{
+    width: 300px;
+    height: 200px;
+}
+
+.header_line{
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 15px;
+}
+.header_line h1{
+    margin-left: 800px;
+    color: rgb(173, 173, 221);
+}
+/* -----------navigation----- */
+.nav{
+    font-size: 20px;
+    display: flex;
+}
+.nav_link{
+    margin-left: 30px;
+    color: rgb(250, 251, 252);
+    text-decoration: none;
+    transition: color 1s linear;
+}
+.nav_link:hover{
+    color: rgb(172, 198, 255);
+    opacity: 1;
+    border-bottom: 2px;
+}
+
+/* -------------------------------------advertising----------------------- */
+.headerlogo_title{
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(62, 162, 250, 0.336);
+    border-radius: 10px;
+}
+.header_icon img{
+    width: 250px;
+    height: 250px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hbutton{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(74, 213, 255);
+    padding-bottom: 5px;
+    padding-top:5px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 5px;
+    transition: color 4s linear;
+}
+.hbutton:hover{
+    background-color: rgb(91, 91, 231);
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------FOOTER------------------------------------- */
+.footer{
+    /* background-color: rgba(255, 199, 246, 0.527); */
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+
+
+/* ==================================new page: KATALOGI============================= */
+
+/* ================================HEADER KATALOGI================================== */
+.header2{
+    background-color: rgba(255, 255, 255, 0.363);
+    width: 100%;
+}
+
+.header_inner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo2 img{
+    width: 150px;
+    height: 90px;
+}
+/* =============NAVIGATION===== */
+.nav2{
+    font-size: 20px;
+    display: flex;
+}
+.nav_link2{
+    margin-left: 30px;
+    color: rgb(250, 251, 252);
+    text-decoration: none;
+    transition: color 1s linear;
+}
+.nav_link2:hover{
+    color: rgb(172, 198, 255);
+    opacity: 1;
+    border-bottom: 2px;
+}
+
+/* ===============catalogue */
+.catalogue{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+/* ====================================information about============================== */
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    background-color: rgba(117, 235, 243, 0.144);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.features_item{
+    text-align: center;
+    padding: 20px;
+}
+.features_img{
+    width: 280px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: opacity(98%);
+}
+.features_title{
+    text-decoration: none;
+    color: rgb(159, 197, 255);
+    font-family: serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    background-color: rgba(240, 248, 255, 0.295);
+    transition: color 1s linear;
+}
+.features_title:hover{
+    color: rgb(86, 184, 230);
+
+}
+.features_price{
+    color: black;
+    padding-bottom: 30px;
+    background-color: rgba(240, 248, 255, 0.281);
+    padding-bottom: 10px ;
+}
+
+/* fixed img */
+
+.fixed_img img{
+    width: 90px;
+    height: 90px;
+}
+.fixed{
+    border-style: dotted;
+    margin-left: 1000px;
+    margin-top: 800px;
+
+}
+
+/* ================================KATALOGIS FOOTER====================================== */
+.footer2{
+    background-color: rgb(232, 242, 255);
+    padding: 50px;
+}
+.footer_inner2{
+    
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+}
+.footermenu{
+    
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    padding: 8px 0 0 10px;
+    font-size: 18px;
+}
+.footerlink{
+    text-decoration: none;
+    color: rgba(137, 43, 226, 0.404);
+}
+.footer_contact{
+    color: rgba(194, 91, 214, 0.774);
+    transition: color 1s linear;
+}
+.footer_contact:hover{
+    color: black;
+}
+.footersocial li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.social1 i{
+    text-decoration: none;
+    font-size: 30px;
+}
+.footerpayment li{
+    padding-top: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+/* +++++++++++++++++++++++++++++++++new page: KONTAKTI============================= */
+
+/* ++++++++++++++++++++++++++++++++++HEADER KONTAKTI================================== */
+.header4{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+.header_inner4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo4 img{
+    width: 150px;
+    height: 90px;
+}
+/* +++++++++++++++NAVIGATION++++ */
+.nav4{
+    font-size: 20px;
+    display: flex;
+}
+.nav_link4{
+    margin-left: 30px;
+    color: rgb(250, 251, 252);
+    text-decoration: none;
+    transition: color 1s linear;
+}
+.nav_link4:hover{
+    color: rgb(81, 136, 255);
+    opacity: 1;
+    border-bottom: 2px;
+}
+
+
+/*++++++++ +++++++MAINLOGO+++++ */
+.mainlogo_inner{
+    display: flex;
+}
+.mainlogo_border{
+    background-color: rgba(143, 191, 253, 0.158);
+    width: 410px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 70px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mainlogo_title{
+    color: rgba(255, 255, 255, 0.719);
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-bottom:15px;
+    transition: color 1s linear;
+}
+.mainlogo_title:hover{
+    color: rgb(255, 255, 255);
+}
+.mainlogo_contact{
+    padding-bottom: 10px;
+}
+
+.contact{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom: 10px;
+    transition: color .78s linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact:hover{
+    color: rgba(0, 0, 0, 0.212);
+}
+.fa-brands{
+    color: rgba(166, 201, 253, 0.89);
+}
+.map{
+    width: 300px;
+    height: 120px;
+    padding-left: 60px;
+}
+
+/*++++++++++++ google map */
+.map{
+    filter: opacity(70%);
+}
+
+
+/* ++++++++++++++++MAINPOEM */
+.mainpoem{
+    font-size: 30px;
+    padding-left: 70px;
+}
+.poem{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 1s linear;
+}
+.poem:hover{
+    color: rgb(202, 100, 185);
+}
+.r:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.137);
+    border-radius: 10px 10px 10px 10px;
+}
+.b:hover{
+    color: rgb(83, 83, 243);
+    background-color: rgba(95, 95, 255, 0.096);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+/*--------------------------------- new page INFO (information)----------------------- */
+/* ================================HEADER INFORMATION================================== */
+.header3{
+    background-color: rgba(255, 255, 255, 0.363);
+    width: 100%;
+}
+
+.header_inner3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo3 img{
+    width: 150px;
+    height: 90px;
+}
+/* =============NAVIGATION===== */
+.nav3{
+    font-size: 20px;
+    display: flex;
+}
+.nav_link3{
+    margin-left: 30px;
+    color: rgb(250, 251, 252);
+    text-decoration: none;
+    transition: color 1s linear;
+}
+.nav_link3:hover{
+    color: rgb(172, 198, 255);
+    opacity: 1;
+    border-bottom: 2px;
+}
+
+/* ++++++++++++++++++++++++++++information about+++++++++++++++++++ */
+
+.information{
+    display: flex;
+    margin: 80px 0;
+    flex-wrap: wrap;
+    width: 1200px;
+    background-color: rgba(245, 245, 220, 0.158);
+}
+.information_items{
+ text-align: center;
+ padding: 0 20px;
+ width: 300px;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ margin-left: 50px;
+ background-color: rgba(255, 176, 238, 0.11);
+}
+.information_icon{
+    background-color: rgba(0, 140, 255, 0.11);
+    padding-top: 20px;
+}
+.information_icon img{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 180px;
+    border-radius: 4px;
+    filter: opacity(90%);
+}
+.information_title{
+    font-size: 13px;
+    color: rgb(71, 83, 252);
+    margin-bottom: 10px;
+    transition: color 5s linear;
+    background-color: rgba(240, 248, 255, 0.507);
+
+}
+.information_title:hover{
+    color: rgb(38, 198, 247);
+}
+.information_text{
+    font-size: 15px;
+    transition: color 1s linear;
+    background-color: rgba(240, 248, 255, 0.233);
+
+}
+
+/* --------------------flower Navigation ------------------*/
+#scrollbutton{
+    background-color: rgb(203, 217, 247);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px ;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
